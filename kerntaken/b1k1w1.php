@@ -147,6 +147,7 @@
       document.body.classList.toggle('dark-mode');
     }
   </script>
+  <?php include 'kerntakendb.inc.php'; ?>
 </head>
 <body>
   <button class="dark-toggle" onclick="toggleDarkMode()"></button>
@@ -165,8 +166,9 @@
   </header>
 
   <main>
-    <h1>B1-K1-W1</h1>
-    <p>VUL MET DATABASE</p>
+    <?php
+        getKerntaken('B1-K1-W1');
+    ?>
   </main>
 
   <footer>

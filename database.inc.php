@@ -5,8 +5,8 @@
     // Dit moet nog opgelost worden, dit is een security issue //
     $host = "localhost";
     $username = "root"; // default is root
-    $password = "root"; //default is leeg of root
-    $database = "db_awfulportfolio"; //de naam van de database die je aanmaakt
+    $password = ""; //default is leeg of root
+    $database = "portfoliowebsite"; //de naam van de database die je aanmaakt
 
     // Maak verbinding met de database
     $conn = new mysqli($host, $username, $password, $database); 

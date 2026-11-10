@@ -141,6 +141,15 @@
       text-align: center;
       padding: 15px;
     }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: grey;
+    }
   </style>
   <script>
     function toggleDarkMode() {
@@ -170,7 +179,7 @@
   </main>
 
   <footer>
-    © <?php print date('Y'); ?> Swarley & CO
+    © <?php print date('Y'); ?> Swarley & CO || <a href="admin.php">Admin Login</a>
   </footer>
 
 </body>
